@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, system-ui, Roboto, sans-serif;
+  }
+}
+
+.font-batang {
+  font-family: 'Gowun Batang', serif;
+}
+
+.font-dodum {
+  font-family: 'Gowun Dodum', sans-serif;
+}
+
+/* Warm paper texture subtle grain effect */
+.paper-pattern {
+  background-color: #FAF7F2;
+  background-image: radial-gradient(#E8DFD3 0.75px, transparent 0.75px);
+  background-size: 20px 20px;
+}
+
+/* Diary lined background effect for writing */
+.diary-lines {
+  background-image: linear-gradient(transparent, transparent 27px, #EFE8DE 28px);
+  background-size: 100% 28px;
+  line-height: 28px;
+}
+
+/* Smooth custom scrollbar for cozy reading */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(235, 227, 217, 0.5);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(196, 180, 160, 0.6);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(160, 140, 120, 0.8);
+}
